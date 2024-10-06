@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    position: relative;
+    top: 200px;
+
+    /* flex-direction: column; */
+}
+
+#carImage {
+    width: 300px;
+    position: absolute;
+}
+
+.showAxis {
+    width: 800px;
+    padding: 10px;
+}
+
+.showAxis p {
+    padding: 5px;
+}
+
+.showAxis input {
+    padding: 5px;
+}
+
+#start {
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px 15px;
+    top: 350px;
+    position: absolute;
+}
+
+#stop {
+    font-size: 15px;
+    padding: 10px;
+    margin: 5px 15px;
+    top: 350px;
+    position: absolute;
+    left: 120px;
+}
